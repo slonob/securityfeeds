@@ -3,7 +3,7 @@
 motd/motd_news.pam.sh is a simple message of the day shell script to demonstrate pulling alerts from an RSS feed.
 
 Dependencies are highlighted in bold:
-*curl* -s https://krebsonsecurity.com/feed/ | *xsltproc* /usr/local/share/rss_top.xsl - | *elinks* -dump -dump-color-mode 1
+**curl** -s https://krebsonsecurity.com/feed/ | **xsltproc** /usr/local/share/rss_top.xsl - | **elinks** -dump -dump-color-mode 1
 
 As you can see, I have installed the rss_top.xsl in /usr/local/share/.  I also installed the shell script in /usr/local/bin/.
 
