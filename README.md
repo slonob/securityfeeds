@@ -11,6 +11,7 @@ The following line is added to /etc/pam.d/system-login (Arch Linux based system,
 session    optional   pam_exec.so    stdout /usr/local/bin/motd_news.pam.sh
 
 The result, when I log into the machine, the latest (first item listed) Brian Krebs is shown to me along with some useful system information:
-![terminal screenshot][assets/terminal_screenshot.png]
+
+![terminal screenshot](assets/terminal_screenshot.png)
 
 The URL can be changed to whatever makes sense.  Note that if your source is JSON, the *jq* tool is an excellent way to process the output.
